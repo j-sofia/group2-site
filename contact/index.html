@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Valiant Volleyball</title>
+
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		
+
+	</head>
+
+	<body>
+
+		<div id="header">
+			<a href="/"><img id="logo" src="/images/logo.png" alt="Valiant Volleyball"></a>
+			<span id="titleContainer"><h1>Valiant Volleyball</h1></span>
+			<nav>
+				<a href="../calendar" class="navlink">Calendar</a> <!--class="navlink active" marks the active tab-->
+				<a href="../gallery" class="navlink">Gallery</a>
+				<a href="../location" class="navlink">Location</a>
+				<a href="../contact" class="navlink">Contact</a>
+			</nav>
+		</div>
+
+		<h2>Contact Us</h2>
+		<div id="content">
+			<h3>We're ready to help!</h3>
+			<p>contact@ValiantVolleyball.org<br />&#40;123&#41; 555&#45;4567</p>
+
+			<form id="contact" action="" method="post"> <!--action is not supposed to be empty, but it is a placeholder for now-->
+				<fieldset>
+					<p>Full Name &#40;*&#41;</p>
+					<input placeholder="Full Name" type="text" id="name" tabindex="1" required autofocus>
+				</fieldset>
+				<fieldset>
+					<p>Email &#40;*&#41;</p>
+					<input placeholder="Email" type="email" id ="email" tabindex="2" required>
+				</fieldset>
+				<fieldset>
+					<p>Message &#40;*&#41;</p>
+					<textarea placeholder="Message" id ="message" tabindex="3" required></textarea>
+				</fieldset>
+				<fieldset>
+					<button name="submit" type="submit" id="contact-submit" data-submit="Sending">Send</button>
+					<p>&#40;*&#41; - Required</p>
+				</fieldset>
+			</form>
+		</div>
+
+	</body>
+
+</html>
